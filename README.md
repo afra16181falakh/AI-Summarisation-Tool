@@ -54,6 +54,3 @@ AI-powered-note-taking-app/
 - Clean and modern user interface
 - Easy-to-use note taking interface
 
-## License
-
-MIT License
