@@ -1,4 +1,4 @@
-# AI-Powered Note Taking App
+# AI Summarisation Tool
 
 ## Requirements
 
