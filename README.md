@@ -10,9 +10,11 @@ A simple web application for summarizing text notes using AI-powered natural lan
 
 ## Technologies Used
 
-- **Python** with **Flask** for backend
+- **Python**
+- **Flask** for backend
 - **Transformers** library for text summarization
-- **HTML5** & **CSS3** for frontend
+- **HTML5**
+-  **CSS3** for frontend
 - **JavaScript** for client-side interactions
 
 ## Installation
