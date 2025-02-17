@@ -1,0 +1,118 @@
+/* Modern, pastel design */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #f0f4f8 0%, #f9fafb 100%);
+  color: #4a5568;
+  margin: 0;
+  padding: 40px;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(10px);
+}
+
+h1 {
+  color: #4c51bf;
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.8rem;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+
+textarea {
+  width: 100%;
+  min-height: 180px;
+  padding: 20px;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+  resize: vertical;
+  transition: all 0.3s ease;
+  background: #f8fafc;
+  color: #4a5568;
+}
+
+textarea:focus {
+  border-color: #a3bffa;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(163, 191, 250, 0.2);
+  background: white;
+}
+
+button {
+  background-color: #667eea;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-right: 15px;
+  box-shadow: 0 4px 6px rgba(102, 126, 234, 0.1);
+}
+
+button:hover {
+  background-color: #5a67d8;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 12px rgba(102, 126, 234, 0.15);
+}
+
+.results {
+  margin-top: 40px;
+  padding: 25px;
+  background: rgba(247, 250, 252, 0.9);
+  border-radius: 12px;
+  backdrop-filter: blur(5px);
+}
+
+.results h2 {
+  color: #4c51bf;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+.summary {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  body {
+    padding: 20px;
+  }
+
+  .container {
+    padding: 25px;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  textarea {
+    min-height: 150px;
+    padding: 15px;
+  }
+
+  button {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+/* Add Poppins font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");

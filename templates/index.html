@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes App</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Notes Summarizer</h1>
+      <textarea
+        id="note-input"
+        placeholder="Enter your note here..."
+      ></textarea>
+      <div class="buttons">
+        <button onclick="summarizeNote()">Summarize</button>
+      </div>
+      <div class="results">
+        <h2>Summary</h2>
+        <div class="summary" id="summary"></div>
+      </div>
+    </div>
+    <script>
+      function summarizeNote() {
+        const note = document.getElementById("note-input").value;
+        if (!note.trim()) {
+          alert("Please enter a note to summarize");
+          return;
+        }
+
+        fetch("/summarize", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ note: note }),
+        })
+          .then((response) => response.json())
+          .then((data) => {
+            document.getElementById("summary").textContent = data.summary;
+          })
+          .catch((error) => {
+            console.error("Error:", error);
+          });
+      }
+    </script>
+  </body>
+</html>
