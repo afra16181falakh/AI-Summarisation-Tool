@@ -1,51 +1,59 @@
-# Notes Summarizer Web App
+# AI-Powered Note Taking App
 
-A simple web application for summarizing text notes using AI-powered natural language processing.
+## Requirements
 
-## Features
+- Python 3.7+
+- pip package manager
 
-- **Text Summarization**: Automatically generates concise summaries of long text notes
-- **Modern UI**: Clean and responsive interface with a pastel color scheme
-- **Easy to Use**: Simple text input with instant summarization results
+## Project Structure
 
-## Technologies Used
-
-- **Python**
-- **Flask** for backend
-- **Transformers** library for text summarization
-- **HTML5**
--  **CSS3** for frontend
-- **JavaScript** for client-side interactions
+```
+AI-powered-note-taking-app/
+├── app.py                # Main application file
+├── requirements.txt     # Python dependencies
+├── static/
+│   ├── styles.css        # Custom styles
+│   └── script.js        # Client-side JavaScript
+├── templates/
+│   └── index.html        # Main HTML template
+└── README.md             # Project documentation
+```
 
 ## Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/notes-summarizer.git
-   cd notes-summarizer
-Create a virtual environment:
+   git clone https://github.com/afra16181falakh/AI-powered-note-taking-app.git
+   cd AI-powered-note-taking-app
+   ```
 
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-Install dependencies:
+2. Create a virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
 
-pip install -r requirements.txt
-Run the application:
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-python app.py
-Open your browser and visit:
+4. Run the application:
+   ```bash
+   python app.py
+   ```
 
-http://localhost:5000
-Requirements
-Python 3.7+
-pip package manager
-Project Structure
-notes-summarizer/
-├── app.py                # Main application file
-├── requirements.txt     # Python dependencies
-├── static/
-│   ├── styles.css        # Custom styles
-│   └── script.js         # Client-side JavaScript
-├── templates/
-│   └── index.html        # Main HTML template
-└── README.md            # This file
+5. Open your browser and visit:
+   ```
+   http://localhost:5000
+   ```
+
+## Features
+
+- AI-powered text summarization
+- Clean and modern user interface
+- Easy-to-use note taking interface
+
+## License
+
+MIT License
