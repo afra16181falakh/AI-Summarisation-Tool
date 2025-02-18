@@ -21,7 +21,7 @@ AI-powered-note-taking-app/
 
 ## Installation
 
-1. Clone the repository:
+1. Clone the repository
    ```bash
    git clone https://github.com/afra16181falakh/AI-powered-note-taking-app.git
    cd AI-powered-note-taking-app
