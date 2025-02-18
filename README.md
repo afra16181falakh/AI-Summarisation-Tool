@@ -49,6 +49,7 @@ AI-powered-note-taking-app/
    ```
 
 ## Features
+
 - AI-powered text summarization
 - Clean and modern user interface
 - Easy-to-use note taking interface
