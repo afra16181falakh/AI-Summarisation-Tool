@@ -51,5 +51,5 @@ AI-powered-note-taking-app/
 
 - AI-powered text summarization
 - Clean and modern user interface
-- Easy-to-use note taking interface.
+- Easy-to-use note taking interface
 
