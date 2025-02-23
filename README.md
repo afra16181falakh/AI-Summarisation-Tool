@@ -41,6 +41,7 @@ AI-powered-note-taking-app/
    ```bash
    python app.py
    ```
+   
 5. Open your browser and visit:
    ```
    http://localhost:5000
