@@ -17,6 +17,7 @@ AI-powered-note-taking-app/
 │   └── index.html        # Main HTML template
 └── README.md             # Project documentation
 ```
+
 ## Installation
 1. Clone the repository:
    ```bash
