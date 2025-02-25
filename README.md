@@ -3,7 +3,7 @@
 
 - Python 3.7+
 - pip package manager
-
+  
 ## Project Structure
 
 ```
